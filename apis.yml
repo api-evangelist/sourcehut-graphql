@@ -1,0 +1,64 @@
+aid: sourcehut-graphql
+name: Sourcehut GraphQL
+description: |
+  Sourcehut (sr.ht) is an open-source software forge offering version control,
+  build automation, bug tracking, mailing lists, and more through a unified
+  GraphQL API. Each service — git.sr.ht, builds.sr.ht, lists.sr.ht, todo.sr.ht,
+  and others — exposes its own GraphQL endpoint at /query, enabling developers to
+  query and manage their projects programmatically with a consistent interface.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://sourcehut.org/
+baseURL: https://git.sr.ht/query
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Developer Tools
+  - Software Forge
+  - Version Control
+  - Open Source
+  - CI/CD
+  - Git
+apis:
+  - aid: sourcehut-graphql:graphql-api
+    name: Sourcehut GraphQL GraphQL API
+    description: |
+      The Sourcehut GraphQL API provides programmatic access to all sr.ht services
+      including git hosting, Mercurial hosting, build pipelines, mailing lists, bug
+      tracking, and account management. Each service exposes its own /query endpoint
+      supporting HTTP POST with JSON payloads, cursor-based pagination, file uploads
+      via multipart, webhook subscriptions, and OAuth 2.0 or personal access token
+      authentication. Query complexity is capped at 200 by default and processing
+      time is limited to 3 seconds per request.
+    tags:
+      - GraphQL
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://man.sr.ht/graphql.md
+    baseURL: https://git.sr.ht/query
+    properties:
+      - url: https://man.sr.ht/graphql.md
+        type: Documentation
+      - url: graphql/sourcehut-graphql-graphql.md
+        type: GraphQL
+common:
+  - url: https://sourcehut.org/
+    type: Website
+  - url: https://man.sr.ht/graphql.md
+    type: Documentation
+  - url: https://www.linkedin.com/company/sourcehut/
+    type: LinkedIn
+  - url: https://github.com/sourcehut
+    type: GitHubOrganization
+  - url: https://sourcehut.org/pricing/
+    type: Pricing
+  - url: plans/sourcehut-graphql-plans.md
+    type: Plans
+  - url: rate-limits/sourcehut-graphql-rate-limits.md
+    type: RateLimits
+  - url: finops/sourcehut-graphql-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
