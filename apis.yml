@@ -7,7 +7,7 @@ description: |
   and others — exposes its own GraphQL endpoint at /query, enabling developers to
   query and manage their projects programmatically with a consistent interface.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://sourcehut.org/
 baseURL: https://git.sr.ht/query
 created: 2026-06-14
@@ -34,7 +34,7 @@ apis:
       time is limited to 3 seconds per request.
     tags:
       - GraphQL
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://man.sr.ht/graphql.md
     baseURL: https://git.sr.ht/query
     properties:
