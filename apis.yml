@@ -43,6 +43,8 @@ apis:
       - url: graphql/sourcehut-graphql-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/sourcehut-graphql-domain-security.yml
   - url: https://sourcehut.org/
     type: Website
   - url: https://man.sr.ht/graphql.md
@@ -59,6 +61,8 @@ common:
     type: RateLimits
   - url: finops/sourcehut-graphql-finops.md
     type: FinOps
+  - url: https://sourcehut.org/blog/index.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
