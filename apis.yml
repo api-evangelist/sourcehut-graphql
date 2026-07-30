@@ -7,7 +7,18 @@ description: |
   and others — exposes its own GraphQL endpoint at /query, enabling developers to
   query and manage their projects programmatically with a consistent interface.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sourcehut-graphql.png
 url: https://sourcehut.org/
 baseURL: https://git.sr.ht/query
 created: 2026-06-14
