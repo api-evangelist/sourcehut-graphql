@@ -7,6 +7,17 @@ description: |
   and others — exposes its own GraphQL endpoint at /query, enabling developers to
   query and manage their projects programmatically with a consistent interface.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
