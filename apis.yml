@@ -45,7 +45,7 @@ tags:
 - Developer Tools
 - Software Forge
 - Version Control
-- Open-Source
+- Open Source
 - CI/CD
 - Git
 tags_raw:
@@ -56,6 +56,7 @@ tags_raw:
 - Open Source
 - CI/CD
 - Git
+- Open-Source
 apis:
 - aid: sourcehut-graphql:graphql-api
   name: Sourcehut GraphQL API
