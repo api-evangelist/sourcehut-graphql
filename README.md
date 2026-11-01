@@ -64,45 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sourcehut (sr.ht) is an open-source software forge offering version control,
-build automation, bug tracking, mailing lists, and more through a unified
-GraphQL API. Each service exposes its own GraphQL endpoint at /query, enabling
-developers to query and manage their projects programmatically with a consistent
-interface.
+Sourcehut (sr.ht) is an open-source software forge offering version control, build automation, bug tracking, mailing lists, and more through a unified GraphQL API. Each service — git.sr.ht, builds.sr.ht, lists.sr.ht, todo.sr.ht, and others — exposes its own GraphQL endpoint at /query, enabling developers to query and manage their projects programmatically with a consistent interface.
 
-## Links
+**Areas:** GraphQL · Developer Tools · Software Forge · Version Control · Open Source · CI/CD · Git
 
-- **Website:** https://sourcehut.org/
-- **API Documentation:** https://man.sr.ht/graphql.md
-- **GraphQL Endpoints:** https://git.sr.ht/query, https://builds.sr.ht/query, etc.
-- **GitHub Organization:** https://github.com/sourcehut
-- **Pricing:** https://sourcehut.org/pricing/
+## Sourcehut GraphQL on APIs.io
 
-## GraphQL Endpoints
+Everything profiled for Sourcehut GraphQL is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sourcehut-graphql/](https://apis.io/providers/sourcehut-graphql/)** — or go straight to one of the APIs or properties below.
 
-| Service         | Endpoint                        |
-|-----------------|---------------------------------|
-| git.sr.ht       | https://git.sr.ht/query         |
-| builds.sr.ht    | https://builds.sr.ht/query      |
-| hg.sr.ht        | https://hg.sr.ht/query          |
-| lists.sr.ht     | https://lists.sr.ht/query       |
-| meta.sr.ht      | https://meta.sr.ht/query        |
-| paste.sr.ht     | https://paste.sr.ht/query       |
-| todo.sr.ht      | https://todo.sr.ht/query        |
+### APIs (1)
 
-## Authentication
+- [Sourcehut GraphQL API](https://apis.io/apis/sourcehut-graphql/graphql-api/) — The Sourcehut GraphQL API provides programmatic access to all sr.ht services including git hosting, Mercurial hosting, build pipelines, mailing lists, bug…
 
-All API requests require authentication via:
-- Personal access tokens (`Authorization: Bearer <token>`)
-- OAuth 2.0 bearer tokens
+### Published properties
 
-## Rate Limits
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Query complexity cap: 200 (default)
-- Max processing time: 3 seconds
-- Pagination default: 25 results per page
+#### GraphQL (1)
 
-## Pricing
+GraphQL schemas.
 
-Sourcehut uses a pay-what-you-can model with three tiers ($4, $8, $12/month),
-all providing identical API access. Financial aid is available.
+- [Sourcehut GraphQL GraphQL API](https://apis.io/graphqls/sourcehut-graphql/sourcehut-graphql-graphql/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sourcehut Graphql Domain Security](https://apis.io/security/sourcehut-graphql/sourcehut-graphql-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sourcehut.org/)
+- [Documentation](https://man.sr.ht/graphql.md)
+- [Pricing](https://sourcehut.org/pricing/)
+- [Blog](https://sourcehut.org/blog/index.xml)
+- [GitHub](https://github.com/sourcehut)
+
+## API Evangelist rating
+
+**Kin Score 19.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 35.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 10.5 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sourcehut-graphql/](https://apis.io/providers/sourcehut-graphql/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sourcehut GraphQL: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sourcehut-graphql/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
